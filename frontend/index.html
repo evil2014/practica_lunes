@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Docker Compose con 3 contenedores</title>
+</head>
+<body>
+  <h1>Frontend con Nginx</h1>
+  <p>Este archivo está corriendo en el contenedor frontend.</p>
+
+  <button onclick="consultarAPI()">Consultar Backend</button>
+
+  <pre id="resultado"></pre>
+
+  <script>
+    async function consultarAPI() {
+      const respuesta = await fetch('http://localhost:3000');
+      const datos = await respuesta.text();
+      document.getElementById('resultado').textContent = datos;
+    }
+  </script>
+</body>
+</html>
