@@ -1,7 +1,7 @@
 # Práctica: Crear el archivo `docker-compose.yml` para ejecutar una aplicación con 3 contenedores
 
 ## Objetivo de la práctica
-
+cambio-1
 En esta práctica se entrega al alumno un repositorio con una aplicación web dividida en varios componentes, pero **sin el archivo `docker-compose.yml`**.
 
 El objetivo es que el alumno analice la estructura del proyecto, identifique los servicios necesarios y construya el archivo Docker Compose para poder ejecutar la aplicación completa.
